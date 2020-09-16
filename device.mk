@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
     init.goodix.sh \
     init.ugg.rc
 
+# Shims
+PRODUCT_PACKAGES += \
+    libbinder_shim
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
